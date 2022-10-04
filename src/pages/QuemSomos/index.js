@@ -6,7 +6,7 @@ export function QuemSomos() {
   return (
     <div>
       <section className="text-center container">
-        <div className="row pt-4">
+        <div className="row pt-5">
           <div className="col-lg-6 col-md-8 mx-auto">
             <h1 className="fw-light">Quem Somos?</h1>
             <p className="lead text-muted">Venha Conhecer A Casa São José</p>
@@ -15,7 +15,7 @@ export function QuemSomos() {
       </section>
 
       <div className="d-flex">
-        <figure className="d-flex flex-column justify-content-center m-4">
+        <figure className="d-flex flex-column justify-content-start  m-4">
           <img className="img" src="img/PHOTO-2020-02-21-11-02-.jpg" />
           <br />
           <img className="img" src="img/CÇA.jpg" />
@@ -85,7 +85,7 @@ export function QuemSomos() {
           </p>
         </div>
 
-        <div className="d-flex flex-column justify-content-center m-4">
+        <div className="d-flex flex-column justify-content-start m-4">
           <h4>
             A Casa São José é um ótimo lugar para desenvolver e expandir seus
             conhecimentos.
